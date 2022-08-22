@@ -148,3 +148,13 @@
 //         console.log('Love me, pet me! HSSSSSS!');
 //     }
 // }
+
+///////////////////////////////////////////////////////////////
+//// FIND THE MEDIAN
+///////////////////////////////////////////////////////////////
+
+// const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12, 17, 12, 71, 18, 15, 12];
+// console.log(nums.length)
+// let median = Math.floor(nums.length/2);
+// nums.sort();
+// console.log(nums[median]);
