@@ -66,3 +66,47 @@
 // for (const turtles of ninjaTurtles) {
 //     console.log(turtles.toUpperCase());
 // }
+
+///////////////////////////////////////////////////////////////
+//// METHODS, REVISITED
+///////////////////////////////////////////////////////////////
+
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle','Django Unchained', 'Titanic'];
+
+// // console.log(favMovies.indexOf('Titanic'));
+
+// //1. 
+// favMovies.sort(); // sorted the elements according to increasing or alphabetical order
+// console.log(favMovies);
+
+// //2.
+// favMovies.pop(); // removes last element of the array
+
+// //3.
+// favMovies.push('Guardians of the Galaxy'); // adds to the end of the array
+
+// //4.
+// favMovies.reverse(); // reverses the array
+
+// //5. 
+// favMovies.shift(); // removes the first element of the array and shifts to the right by 1
+
+// //6. 
+// console.log(favMovies.unshift()); // returns the length of the array
+// console.log(favMovies);
+
+// //7.
+// favMovies.splice(favMovies.length-1,1);
+// favMovies.push('Avatar');
+
+// //8. & 9.
+// let movieLength = favMovies.length;
+// let sliceIndex = (movieLength / 2);
+// let sliceVar = favMovies.slice(sliceIndex);
+// console.log(sliceVar);
+
+// //11.
+// console.log(favMovies.indexOf('Fast and Furious')); // returns -1 as indication it DNE in array
+
+// 12. no, as declaring const favMovies as an array means we can mutate it as an array, but cannot change favMovies to another type like String or Integer
+
