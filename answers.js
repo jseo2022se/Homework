@@ -57,3 +57,12 @@
 //3. dart.push('Hawkins');
 //4. wolfy[0] = 'Gameboy';
 
+///////////////////////////////////////////////////////////////
+//// YELL AT THE NINJA TURTLES
+///////////////////////////////////////////////////////////////
+
+// const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+// for (const turtles of ninjaTurtles) {
+//     console.log(turtles.toUpperCase());
+// }
