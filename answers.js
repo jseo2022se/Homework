@@ -114,10 +114,37 @@
 //// WHERE IS WALDO
 ///////////////////////////////////////////////////////////////
 
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods","Waldo"]]];
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods","Waldo"]]];
 
-whereIsWaldo.splice(1,1);
+// whereIsWaldo.splice(1,1);
 
-whereIsWaldo[1][2] = 'No One';
+// whereIsWaldo[1][2] = 'No One';
 
-console.log(whereIsWaldo[2][1][1]);
+// console.log(whereIsWaldo[2][1][1]);
+
+///////////////////////////////////////////////////////////////
+//// EXCITED KITTEN
+///////////////////////////////////////////////////////////////
+
+// for (let i = 0; i < 20; i++) {
+//     let randomAns = Math.floor(Math.random() * 3);
+//     if (i == 0) {
+//         console.log('Love me, pet me! HSSSSSS!');
+//     }
+//     if (i % 2 == 0) {
+        
+//         switch(randomAns) {
+//             case 0:
+//                 console.log('...human...why you taking pictures of me?');
+//                 break;
+//             case 1:
+//                 console.log('...the catnip made me do it...');
+//                 break;
+//             case 2:
+//                 console.log('...why does the red dot always get away...');
+//                 break;
+//         }
+//     } else {
+//         console.log('Love me, pet me! HSSSSSS!');
+//     }
+// }
