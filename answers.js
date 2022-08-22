@@ -163,35 +163,35 @@
 //// RETURN OF THE CLOSETS
 ///////////////////////////////////////////////////////////////
 
-const kristynsCloset = [
-    "left shoe",
-    "cowboy boots",
-    'right sock',
-    "GA hoodie",
-    "green pants",
-    "yello knit hat",
-    "marshmallow peeps"
-];
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     'right sock',
+//     "GA hoodie",
+//     "green pants",
+//     "yello knit hat",
+//     "marshmallow peeps"
+// ];
 
-const thomsCloset = [
-    [
-        // These are Thom's shirts
-        "grey button-up",
-        "dark grey button=up",
-        "light blue button-up",
-        "blue button-up"
-    ], [
-        // These are Thom's pants
-        'grey jeans',
-        'jeans',
-        'PJs'
-    ],[
-        // Thom's accessories
-        "wool mittens",
-        "wool scarf",
-        "raybans"
-    ]
-];
+// const thomsCloset = [
+//     [
+//         // These are Thom's shirts
+//         "grey button-up",
+//         "dark grey button=up",
+//         "light blue button-up",
+//         "blue button-up"
+//     ], [
+//         // These are Thom's pants
+//         'grey jeans',
+//         'jeans',
+//         'PJs'
+//     ],[
+//         // Thom's accessories
+//         "wool mittens",
+//         "wool scarf",
+//         "raybans"
+//     ]
+// ];
 
 // let kristynsShoe = kristynsCloset.shift();
 // thomsCloset[2].push(kristynsShoe);
@@ -200,4 +200,20 @@ const thomsCloset = [
 // for (let i = 0; i < 3; i++) {
 //     console.log('Krystin is wearing a: ' + kristynsCloset[kR()] + ', ' + kristynsCloset[kR()] + ', and ' + kristynsCloset[kR()]);
 //     console.log('Thom is wearing a: ' + thomsCloset[tR()][tR()] + ', ' + thomsCloset[tR()][tR()] + ', and ' + thomsCloset[tR()][tR()]);
+// }
+
+///////////////////////////////////////////////////////////////
+//// DIRTY LAUNDRY
+///////////////////////////////////////////////////////////////
+
+// for (const clothes of kristynsCloset) {
+//     console.log(`WHIRR: Now washing ${clothes}`);
+// }
+
+// console.log();
+
+// for (let i = 0; i < thomsCloset.length; i++) {
+//     for (let j = 0; j < thomsCloset[i].length; j++) {
+//         console.log(thomsCloset[i][j]);
+//     }
 // }
