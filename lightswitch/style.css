@@ -4,6 +4,48 @@ body {
 }
 
 img {
-    height: 400px;
-    width: 400px;
+    width: 25%;
+    height: auto;
+    rotate: 180deg;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 5;
+}
+
+@keyframes slide {
+    50% {
+        transform: translateX(-320px) rotate(360deg);
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "content1 content2 content3";
+    grid-column-gap: 2px;
+    outline: 2px solid black;
+}
+
+#content1 {
+    grid-area: content1;
+    background-color: gold;
+}
+
+#content2 {
+    grid-area: content2;
+    background-color: darkorange;
+}
+
+#content3 {
+    grid-area: content3;
+    background-color: darksalmon;
 }
