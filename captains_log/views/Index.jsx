@@ -28,9 +28,6 @@ class Index extends React.Component {
                         )
                     })}
                 </ul>
-                {/* <form action={`/logs/${log._id}?_method=DELETE`} method='POST'>
-                    <input type='submit' value='Delete'></input>
-                </form> */}
 
                 <nav>
                     <a href='/logs/new'>Create a new log entry</a>
