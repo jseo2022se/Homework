@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
+  height: 100vh;
+  grid-template-areas:
+    "sidebar reviews average-rating sentimental-analysis"
+    "sidebar website-visitors website-visitors website-visitors"
+}
+
+#sidebar {
+  grid-area: sidebar;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(227, 215, 211);
+}
+
+#reviews {
+  grid-area: reviews;
+  /* display: flex;
+  justify-content: center; */
+  padding: 0 10px;
+  background-color: rgb(227, 215, 211);
+}
+
+#average-rating {
+  grid-area: average-rating;
+  /* display: flex;
+  justify-content: center; */
+  padding: 0 10px;
+  background-color: rgb(227, 215, 211);
+}
+
+#sentimental-analysis {
+  grid-area: sentimental-analysis;
+  padding: 0 10px;
+  background-color: rgb(227, 215, 211);
+}
+
+.sa-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#website-visitors {
+  grid-area: website-visitors;
+  /* display: flex;
+  justify-content: center; */
+  padding: 0 10px;
+  background-color: rgb(227, 215, 211);
+}
