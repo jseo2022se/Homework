@@ -1,8 +1,8 @@
-function Reviews () {
+function Reviews ({amount}) {
     return (
         <div>
             <h2>Reviews</h2>
-            <h1>1,281</h1>
+            <h1>{amount}</h1>
         </div>
     )
 }

@@ -9,10 +9,10 @@ function App() {
   return (
     <div className='container'>
       <div id='sidebar'> <Sidebar /></div>
-      <div id='reviews'> <Reviews /></div>
-      <div id='average-rating'> <AverageRating /></div>
-      <div id='sentimental-analysis'> <SentimentalAnalysis /></div>
-      <div id='website-visitors'> <WebsiteVisitors /></div>
+      <div id='reviews'> <Reviews amount={1281}/></div>
+      <div id='average-rating'> <AverageRating rating={4.6}/></div>
+      <div id='sentimental-analysis'> <SentimentalAnalysis values={[960, 122, 321]}/></div>
+      <div id='website-visitors'> <WebsiteVisitors visitors={821}/></div>
     </div>
   );
 }

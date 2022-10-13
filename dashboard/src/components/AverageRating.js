@@ -1,8 +1,8 @@
-function AverageRating () {
+function AverageRating ({rating}) {
     return (
         <div>
             <h2>Average Rating</h2>
-            <h1>4.6</h1>
+            <h1>{rating}</h1>
         </div>
     )
 }
